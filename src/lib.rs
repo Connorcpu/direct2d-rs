@@ -3,7 +3,6 @@
 
 extern crate winapi;
 extern crate wio;
-extern crate uuid;
 extern crate directwrite;
 
 pub use factory::Factory;
