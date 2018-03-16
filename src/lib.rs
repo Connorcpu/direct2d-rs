@@ -2,6 +2,7 @@
 #![feature(slice_patterns, const_fn)]
 
 extern crate winapi;
+extern crate wio;
 extern crate uuid;
 extern crate directwrite;
 
@@ -18,7 +19,6 @@ pub mod math;
 pub mod geometry;
 pub mod stroke_style;
 pub mod brush;
-pub mod comptr;
 
 mod load_dll;
 mod helpers;
